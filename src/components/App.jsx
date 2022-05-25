@@ -20,7 +20,7 @@ const App = () => {
  if(isLogenIn){
   dispatch(getContactsList());
  }
-  }, [isLogenIn]);
+  }, [isLogenIn, dispatch]);
 
   return (
     <Section>
